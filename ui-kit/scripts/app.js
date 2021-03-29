@@ -1,7 +1,7 @@
 // Importing Styles
 import "../styles/app.scss";
-
-console.log("🔥 It's working!");
+import codeblock from "./modules/codeblock";
+codeblock();
 
 // Webpack Config
 if (module.hot) {

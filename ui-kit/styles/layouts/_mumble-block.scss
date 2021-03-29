@@ -1,0 +1,44 @@
+.mumble-block {
+  padding: $sec-ptb-sm;
+
+  &__title {
+    color: $color-main;
+    font-size: 3rem;
+    font-weight: $font-bold;
+  }
+
+  &__info {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid $color-main;
+  }
+
+  &__preview {
+    padding: 3rem 0;
+  }
+
+  &--header {
+    background-color: $color-light;
+  }
+
+  &--typography {
+    .mumble-block__preview > * {
+      line-height: 2;
+    }
+  }
+
+  &--card {
+    .mumble-block__preview {
+      display: flex;
+
+      & > * {
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  &--avatar {
+    .mumble-block__preview > * {
+      margin-right: 1rem;
+    }
+  }
+}
